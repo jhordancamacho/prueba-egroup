@@ -1,6 +1,6 @@
 #slider-wrapper {
-  width: 940px;
-  height: 470px;
+  width: 100%;
+  height: 70vh;
   margin: auto;
   position: relative;
   padding-top: 28px;
@@ -55,8 +55,8 @@
 }
 
 .inner-wrapper {
-  width: 940px;
-  height: 470px;
+  width: 100vw;
+  height: 70vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -109,7 +109,8 @@
 }
 
 .slide img {
-  width: 25%;
+  width: 100vw;
+  height: 70vh;
+  object-fit: cover;
   float: left;
-  padding-top: 28px;
 }

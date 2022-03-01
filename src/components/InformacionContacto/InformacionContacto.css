@@ -1,0 +1,48 @@
+.infoContacto {
+  padding-top: 5%;
+  margin: auto;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(45%, 45%));
+  text-align: justify;
+}
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.infoContacto img {
+  width: 40px;
+  height: 40px;
+}
+#mapa {
+  padding-bottom: 27%;
+}
+
+#telefono {
+  display: inline-block;
+}
+#email {
+  display: block;
+  padding-top: 17vh;
+}
+
+.infoIcons {
+  float: right;
+  margin-right: 15%;
+}
+.newslear input {
+  border-radius: 3px;
+  width: 60%;
+}
+
+.newslear img {
+  margin-top: 5%;
+  margin-right: 1vw;
+  float: right;
+}
+.newslearIcons {
+  padding-right: 35%;
+}

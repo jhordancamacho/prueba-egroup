@@ -1,10 +1,9 @@
 body {
   margin: 0;
-  font-family: Helvetica, sans-serif;
   background-color: #f4f4f4;
 }
 
-a {
+#linkWouter {
   color: #000;
 }
 
@@ -35,7 +34,8 @@ a {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: #9d5837;
+  color: white;
 }
 
 .logo {

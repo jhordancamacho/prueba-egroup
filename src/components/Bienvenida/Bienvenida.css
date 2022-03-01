@@ -1,0 +1,32 @@
+h2 {
+  text-align: center;
+}
+.cajas {
+  margin: auto;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(45%, 45%));
+}
+.caja img {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 30vw;
+  height: 35vh;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.caja p {
+  text-align: justify;
+  min-width: 25%;
+}
+.caja button {
+  min-height: 5%;
+  min-width: 15%;
+  border: 0;
+  border-radius: 3px;
+  background-color: #9d5837;
+  color: white;
+  float: right;
+}

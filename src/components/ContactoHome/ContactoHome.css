@@ -1,0 +1,25 @@
+.contacto {
+  margin: auto;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(45%, 45%));
+  text-align: justify;
+}
+.caja {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.inputs {
+  display: grid;
+}
+.inputs input {
+  border: 1 solid gray;
+  border-radius: 3px;
+  margin-top: 2vh;
+  width: 33vw;
+}
+.inputGrande {
+  height: 18vh;
+}

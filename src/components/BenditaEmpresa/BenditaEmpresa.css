@@ -1,0 +1,21 @@
+.cajaEmpresa {
+  margin: auto;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(45%, 45%));
+}
+.imagenEmpresa {
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagenEmpresa img {
+  display: block;
+  margin: auto;
+  width: 25vw;
+  height: 45vh;
+  object-fit: cover;
+}
+.imagenEmpresa p {
+  width: 25vw;
+}
