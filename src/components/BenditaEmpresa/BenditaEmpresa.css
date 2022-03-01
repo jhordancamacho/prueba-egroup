@@ -3,7 +3,7 @@
   position: relative;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(45%, 45%));
+  grid-template-columns: repeat(auto-fit, minmax(33%, 33%));
 }
 .imagenEmpresa {
   margin-left: auto;
